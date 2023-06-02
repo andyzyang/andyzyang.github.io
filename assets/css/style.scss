@@ -4,6 +4,23 @@
 @import "{{ site.theme }}";
 
 .project-tagline {
-    white-space: pre;
+  white-space: pre;
+  text-align: left;
+}
+
+.project-name {
+  text-align: left;
+}
+
+// Override the padding within the media queries
+@media screen and (min-width: 64em) {
+  .page-header {
+    padding: 2rem 5rem; // New padding values for screens larger than 1024 pixels
   }
-  
+}
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .page-header {
+    padding: 2rem 4rem; // New padding values for screens larger than 1024 pixels
+  }
+}
