@@ -24,3 +24,24 @@
     padding: 2rem 4rem; // New padding values for screens larger than 1024 pixels
   }
 }
+
+.main-content {
+  background-color: rgb(5, 36, 52);
+  max-width: none;
+}
+
+.linkedin-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 5px;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+  text-decoration: none !important;
+}
+
+.linkedin-button:hover {
+  background-color: #005e91;
+}

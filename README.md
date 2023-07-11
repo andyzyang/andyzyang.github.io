@@ -18,10 +18,3 @@
         <img src="/assets/images/Node.png" alt="Node" style="width: 100%; height: auto;">
     </div>
 </div>
-
-
-# Social medias/Contacts:
-
-[LinkedIn](https://www.linkedin.com/in/zongye-yang/)
-
-[Github](https://github.com/andyzyang)
