@@ -80,3 +80,7 @@ table {
   text-decoration: none; /* Remove underline */
   margin-left: 10px; /* Adjust the spacing between links */
 }
+
+.navbar a:hover {
+  filter: brightness(0.85);
+}
