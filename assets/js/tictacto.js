@@ -3,7 +3,6 @@
 $(document).ready(function () {
     $("td").click(function () {
         move(this, huPlayer);
-        console.log("clicked");
     });
 });
 
@@ -14,12 +13,10 @@ let iter = 0;
 let round = 0;
 
 function move(element, player) {
-    console.log("element" + element.id);
     if (board[element.id] != "O" && board[element.id] != "X") {
         round++;
         $(element).text(huPlayer);
         board[element.id] = player;
-        console.log(board);
 
         if (round > 8) {
             setTimeout(function () {
@@ -32,8 +29,6 @@ function move(element, player) {
             let selector = "#" + index;
             $(selector).text(aiPlayer);
             board[index] = aiPlayer;
-            console.log(board);
-            console.log(index);
             if (winning(board, aiPlayer)) {
                 setTimeout(function () {
                     reset();
